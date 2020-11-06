@@ -7,7 +7,8 @@ N = 6000;  % number of samples
 h = 0.1;   % sampling time
 
 % cargo ship
-K = 0.185;  T = 107.3;  uo = 5.0;
+% K = 0.185;  T = 107.3;  uo = 5.0;
+K = 0.3; T = 18.12; uo = 0.15;
 
 No = menu('Choose maneuver','Straight-line stability',...
           'Directional stability (critical damped)',...
